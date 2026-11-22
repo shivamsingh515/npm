@@ -1,0 +1,39 @@
+{
+  "name": "random-16-digit",
+  "version": "1.0.0",
+  "description": "Generate cryptographically secure 16-digit random numbers.",
+  "type": "module",
+  "exports": "./index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepack": "npm test"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "16-digit",
+    "crypto",
+    "secure"
+  ],
+  "author": "shivamsingh515",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamsingh515/npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivamsingh515/npm/issues"
+  },
+  "homepage": "https://github.com/shivamsingh515/npm#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
